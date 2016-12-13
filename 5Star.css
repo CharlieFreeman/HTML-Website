@@ -1,0 +1,19 @@
+.stars {
+  font-size:70px;
+  color:grey;
+  float: left;
+}
+.stark{
+  float: right;
+}
+.star:checked ~ .stark{
+  color:#ffee75;
+}
+
+.stark:hover ~ .stark{
+  color:#fcf3b0;
+}
+
+.stark:hover{
+  color:#fcf3b0;
+}
